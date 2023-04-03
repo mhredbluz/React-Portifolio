@@ -8,8 +8,8 @@ import {VscFolderLibrary} from 'react-icons/vsc'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get to Know</h5>
-      <h2>About Me</h2>
+      <h5>Conheça um pouco </h5>
+      <h2>Sobre mim</h2>
 
       <div className='container about__container'>
         <div className="about__me">
@@ -22,27 +22,30 @@ const About = () => {
           <div className="about__cards">
             <article className='about__card'>
               <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <h5>Experiencia</h5>
+              <small>3+ Anos em projeto</small>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>3+ Clients Worldwide</small>
+              <h5>Clientes</h5>
+              <small>3+ Clientes</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small>20+ Completeds</small>
+              <h5>Projectos</h5>
+              <small>20+ Completados</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ullam aliquid eum. Tempore totam molestiae incidunt quas quasi maxime corporis sit enim aliquid? Voluptatibus perferendis nesciunt ullam, corporis ipsa dolorum.
+          Olá meu nome é Marcos Henrique sou desenvolvedor full stack apaixonado por criar soluções eficientes e inovadoras. Com 3+ anos de experiencia em desenvolvimento e manutenção de softwares, já trabalhei em diversos projetos desafiadores.
+          Durante minha carreira, tive a oportunidade de trabalhar com uma ampla gama de tecnologias e linguagens de programação, como Java 8+, Angular, Vuejs, Docker, MySql, MongoDB.
+          Além disso, estou sempre em busca de aprender novas tecnologias e habilidades para me manter atualizado com as últimas tendências do mercado. Um dos meus principais diferenciais como desenvolvedor é a minha capacidade de entender as necessidades do usuário final e transformá-las em soluções práticas e intuitivas. Sempre me preocupo em desenvolver soluções escaláveis, fáceis de usar e que agreguem valor para o negócio.
+          Estou sempre em busca de novas oportunidades para me desafiar e contribuir para o sucesso de projetos inovadores. Se você procura um desenvolvedor full stack com habilidades técnicas sólidas e uma mentalidade de resolução de problemas, não hesite em entrar em contato comigo.
           </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>Vamos Conversar!</a>
         </div>
       </div>
     </section>

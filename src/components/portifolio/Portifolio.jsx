@@ -1,6 +1,6 @@
 import React from 'react'
 import './portifolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/portifolio1.png'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
@@ -12,7 +12,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
+    github: 'https://github.com/mhredbluz/microserviceSpring',
     demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
   },
   {
@@ -55,7 +55,7 @@ const data = [
 const Portifolio = () => {
   return (
     <section id='portifolio'>
-      <h5>My Recent Work</h5>
+      <h5>Meus projetos</h5>
       <h2>Portifolio</h2>
 
       <div className="container portifolio__container">
