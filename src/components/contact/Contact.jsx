@@ -17,10 +17,12 @@ const Contact = () => {
     e.target.reset()
   };
 
+  
+
   return (
     <section id='contact'>
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>Entre em contato</h5>
+      <h2>Fale Comigo</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
@@ -28,27 +30,27 @@ const Contact = () => {
             <MdOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>mhredbluz@gmail.com</h5>
-            <a href="mailto:mhredbluz@gmail.com">Send a message</a>
+            <a href="mailto:mhredbluz@gmail.com">Mande uma mensagem</a>
           </article>
           <article className='contact__option'>
             <BsInstagram className='contact__option-icon'/>
-            <h4>Instagram</h4>
+            <h4>LinkedIn</h4>
             <h5>@mhredbluz</h5>
-            <a href="mailto:mhredbluz@gmail.com">Send a message</a>
+            <a href="https://www.linkedin.com/in/marcos-henrique-soares-dutra/">Mande uma mensagem</a>
           </article>
           <article className='contact__option'>
             <AiOutlineWhatsApp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
             <h5>+5511984622119</h5>
-            <a href="https://wa.me/5511984622119">Send a message</a>
+            <a href="https://wa.me/5511984622119">Mande uma mensagem</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS*/}
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required />
-          <input type="text" name='email' placeholder='Your Email' required />
-          <textarea name="message" id="7" placeholder='Your Message' required ></textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          <input type="text" name='name' placeholder='Seu nome completo' required />
+          <input type="text" name='email' placeholder='Seu Email' required />
+          <textarea name="message" id="7" placeholder='Sua Mensagem...' required ></textarea>
+          <button type='submit' className='btn btn-primary'>Enviar</button>
         </form>
       </div>
     </section>
