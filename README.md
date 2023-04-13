@@ -1,5 +1,6 @@
 # Getting Started with Create React App
 
+![Portifólio](https://github.com/mhredbluz/React-Portifolio/blob/master/Captura%20de%20tela%202023-04-13%20020804.png)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
