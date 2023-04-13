@@ -10,7 +10,6 @@ header {
     position: relative;
 }
 
-/* ===============CTA===============*/
 .cta {
     margin-top: 2.5rem;
     display: flex;
@@ -18,7 +17,7 @@ header {
     justify-content: center;
 }
 
-/* ===============HEADER SOCIALS===============*/
+
 .header__socials {
     display: flex;
     flex-direction: column;
@@ -35,7 +34,6 @@ header {
     background: var(--color-primary);
 }
 
-/* ===============ME===============*/
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 20rem;
@@ -48,7 +46,6 @@ header {
     padding: 0rem -1.5rem -1.5rem -1.5rem;    
 }
 
-/* ===============SCROLL DOWN===============*/
 .scroll__down {
     position: absolute;
     right: -2.3rem;
@@ -58,14 +55,12 @@ header {
     font-size: 0.9rem;
 }
 
-/* ===============MEDIA QUERIES (MEDIUM DEVICES)==============*/
 @media screen and (max-width: 1024px ){
     header {
         height: 68vh;
     }
 }
 
-/* ===============MEDIA QUERIES (SMALL DEVICES)===============*/
 @media screen and (max-width: 600px ){
     header {
         height: 100vh;
