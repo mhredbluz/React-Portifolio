@@ -8,7 +8,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-}
+  }
 
  :root {
     --color-bg: #1f1f38;
@@ -18,7 +18,7 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
-    --transition: transition: all 400ms ease;
+    --transition: all 400ms ease;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -41,7 +41,6 @@
     background-image: url(../src/assets/Azul-marinho.jpg);
   }
 
-  /* ######### CONTAINERS ############# */
 
   .container {
     width: var(--container-width-lg);
@@ -116,7 +115,6 @@
     object-fit: cover;
   }
 
-  /* ================ MEDIA QUERIES (MEDIUM DEVICES) =============*/
 @media screen and (max-width: 1024px) {
     .container{
         width: var(--container-width-md);
@@ -127,7 +125,6 @@
     }
 }
 
-  /* ================ MEDIA QUERIES (SMALL DEVICES) =============*/
   @media screen and (max-width: 600px) {
     .container{
         width: var(--container-width-sm);

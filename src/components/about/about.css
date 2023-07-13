@@ -70,7 +70,6 @@
     color: var(--color-white);
 }
 
-/* ===============MEDIA QUERIES (MEDIUM DEVICES)==============*/
 @media screen and (max-width: 1024px ){
     .about__container {
         grid-template-columns: 1fr;
@@ -87,7 +86,6 @@
     }
 }
 
-/* ===============MEDIA QUERIES (SMALL DEVICES)===============*/
 @media screen and (max-width: 600px ){
     .about__me {
         width: 65%;
